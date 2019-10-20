@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{user.name}} - {{user.currentJob}}</title>
+    <!-- inject-css style.css -->
+</head>
+
+<body>
+    <div class="topbar">Portfolio</div>
+    <div class="container">
+        <div class="sidebar">
+
+            <div class="photo">
+                <img src="{{user.photoUrl}}">
+            </div>
+
+            <ul class="info">
+                <li>
+                    <h2 class="name">
+                        {{user.name}}
+                    </h2>
+                </li>
+                <li>{{user.currentJob}}</li>
+                <li>{{user.email}}</li>
+            </ul>
+
+            <br />
+
+            <ul class="social">
+                <li>
+                    <a href="https://t.me/{{user.idTelegram}}">
+                        <img height="16" width="16" src="https://unpkg.com/simple-icons@latest/icons/telegram.svg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/search?q={{user.idGithub}}">
+                        <img height="16" width="16" src="https://unpkg.com/simple-icons@latest/icons/github.svg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="{{user.linkedin}}">
+                        <img height="16" width="16" src="https://unpkg.com/simple-icons@latest/icons/linkedin.svg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="{{user.stackOverflow}}">
+                        <img height="16" width="16"
+                            src="https://unpkg.com/simple-icons@latest/icons/stackoverflow.svg" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.google.com/maps/search/{{user.location}}">
+                        <img height="16" width="16"
+                            src="https://unpkg.com/simple-icons@latest/icons/openstreetmap.svg" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="main">
+
+            <h2>About</h2>
+            <p>{{user.descriptions}}</p>
+
+            <br />
+
+            <h2>Works</h2>
+            <ul class="works">
+                {{#user.jobHistory}}
+                <li>
+                    <h3>{{company}}</h3>
+                    <p>{{position}}</p>
+                    <span>{{startYears}} - {{endYears}}</span>
+                </li>
+                {{/user.jobHistory}}
+            </ul>
+
+            <br />
+
+            <h2>Skills</h2>
+            <ul class="skills">
+                {{#user.skillset}}
+                <li>{{name}}</li>
+                {{/user.skillset}}
+            </ul>
+
+            <br />
+
+            <h2>Educations</h2>
+            <ul class="educations">
+                {{#user.educations}}
+                <li>
+                    <h3>{{institution}}</h3>
+                    <p>{{descriptions}} ({{grade}})</p>
+                    <span>{{years}}</span>
+                </li>
+                {{/user.educations}}
+            </ul>
+
+        </div>
+        <div class="clear"></div>
+    </div>
+</body>
+
+</html>

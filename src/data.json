@@ -1,0 +1,78 @@
+{
+    "user": {
+        "photoUrl": "https://avatars1.githubusercontent.com/u/1916749?s=460&v=4",
+        "descriptions": "Tech. enthusiasm and loved to be a loyal Linux and Mac user.\nSometimes ride the highway by his old road bike, also happy to write things at his blog.",
+        "currentJob": "DevOps, LRsoft Corp.",
+        "idGithub": "@23Pstars",
+        "name": "Ahmad Zafrullah",
+        "email": "zaf@elektro08.com",
+        "linkedin": "https://www.linkedin.com/in/23pstars/",
+        "stackOverflow": "https://stackoverflow.com/users/1412798/23pstars",
+        "idTelegram": "@AhmadZafrullah",
+        "skillset": [
+            {
+                "name": "C"
+            },
+            {
+                "name": "ReactJS"
+            },
+            {
+                "name": "Web Stack"
+            },
+            {
+                "name": "SysAdmin (Linux Server)"
+            },
+            {
+                "name": "Dekstop (Java, VB, Gambas)"
+            },
+            {
+                "name": "Databases (MySQL, MongoDB, PostgreSQL)"
+            }
+        ],
+        "location": "Lombok Tengah",
+        "jobHistory": [
+            {
+                "position": "DevOps, Co-Founder",
+                "company": "LRsoft Corp.",
+                "startYears": "2013",
+                "endYears": "Present",
+                "jobDesc": "-"
+            },
+            {
+                "position": "Technical Engineer",
+                "company": "INDOTRAVELONLINE",
+                "startYears": "2014",
+                "endYears": "Present",
+                "jobDesc": "-"
+            },
+            {
+                "position": "Lecturer",
+                "company": "Universitas Mataram",
+                "startYears": "2018",
+                "endYears": "Present",
+                "jobDesc": "-"
+            },
+            {
+                "position": "Project Manager",
+                "company": "PUSTIK Universitas Mataram",
+                "startYears": "2018",
+                "endYears": "Present",
+                "jobDesc": "-"
+            }
+        ],
+        "educations": [
+            {
+                "institution": "Universitas Mataram",
+                "grade": "S1",
+                "years": "2008 - 2013",
+                "descriptions": "Teknik Elektro"
+            },
+            {
+                "institution": "Universitas Gadjah mada",
+                "grade": "S2",
+                "years": "2005 - 2018",
+                "descriptions": "Teknik Elektro dan Teknologi Informasi"
+            }
+        ]
+    }
+}

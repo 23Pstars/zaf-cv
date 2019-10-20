@@ -1,1 +1,3 @@
-# zaf-cv
+`npm insall && gulp`
+
+That's all.
