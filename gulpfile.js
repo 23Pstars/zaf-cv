@@ -46,7 +46,7 @@ gulp.task('html', done => {
     done();
 });
 
-gulp.task('default', gulp.parallel(['style', 'tpl', 'html']));
+gulp.task('default', gulp.series(['style', 'tpl', 'html']));
 
 gulp.task('watch', () => {
     gulp.watch('./src/banner.txt', gulp.parallel(['tpl', 'html']));
