@@ -27,7 +27,7 @@ gulp.task('tpl', done => {
             removeComments: true
         }))
         .pipe(banner('<!--<%= __b %>-->', { '__b': __banner }))
-        .pipe(rename('index.tpl'))
+        .pipe(rename('cv_zaf.hbs'))
         .pipe(gulp.dest('./dist'));
     done();
 });
